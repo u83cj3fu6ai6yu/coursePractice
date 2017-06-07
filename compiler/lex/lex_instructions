@@ -1,0 +1,3 @@
+flex –o lex.yy.c(輸出） wordcount.l（輸入）	//把.l檔編譯成.c檔
+gcc –o wordcount（輸出） lex.yy.c（輸入） -lfl	//把.c檔編譯成.exe檔
+./wordcount < input.txt			//把input.txt餵給wordcount.exe
